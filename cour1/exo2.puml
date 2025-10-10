@@ -1,0 +1,28 @@
+#exo2
+
+Start
+    Initiate number
+    Show message "enter a number please."
+    Wait fow user to enter a number
+    Assign number with value enter
+
+    if (number % 2 = 0) then 
+        Show message "le nombre est pair"
+    else    
+        show message "le nombre est impaire"
+    endif
+stop
+
+@startuml
+start
+:initiate number;
+:Show message "enter a number please.";
+:Wait fow user to enter a number;
+:Assign number with value enter;
+if (number%2 = 0) then (yes)
+:Show message "le nombre est pair";
+else (no)
+:show message "le nombre est impaire";
+endif
+stop
+@enduml

@@ -1,0 +1,21 @@
+#exo2
+Début 
+    Instancier nb_invité = 6 
+    tant que nb place ayant des assisettes < nb_invité faire
+        mettre une assiète
+    fin tant que
+    annoncer la tâble est prête
+Fin
+
+@startuml
+
+start
+:Instancier un panier vide = 0;
+:Instacier Taille max de panier = 10;
+repeat
+    :ajouter une pomme dans le panier ; panier + 1;
+repeat while (panier < max panier) 
+:message "panier plein";
+stop
+
+@enduml

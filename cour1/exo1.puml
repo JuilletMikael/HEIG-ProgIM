@@ -1,0 +1,49 @@
+#exo2
+Start
+
+    Initiate n1
+    Show message "enter first note"
+    Ask a value
+    Register value in n1
+
+    Initiate n1
+    Show message "enter first note"
+    Ask a value
+    Register value in n1
+
+    Initiate n1
+    Show message "enter first note"
+    Ask a value
+    Register value in n1
+
+    initialise average value with (n1+n2+n3 / 3);
+
+    show message average is value of average
+    
+
+---
+
+@startuml
+start
+:initialize first grade;
+:show "enter first grade";
+:ask user to enter a value; 
+:assigne first grade value;
+
+:initialize second grade;
+:show "enter second grade";
+:ask user to enter a value; 
+:assigne second grade value;
+
+:initialize third grade;
+:show "enter third grade";
+:ask user to enter a value; 
+:assigne third grade value;
+
+:innitiate result;
+:assign the calulated result =(n1+n2+n3)/3";
+:show message result = value result;
+stop
+@enduml
+
+
