@@ -1,4 +1,4 @@
-package cour3;
+
 
 public class Student {
     private String name; 
