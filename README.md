@@ -101,8 +101,8 @@ For more details on Conventional Commits, visit [conventionalcommits.org](https:
 | :----------------| :---------------- | :------------------------------ |
 | Class/Interface  | PascalCase        | public class ArroserPlantes     |
 | Methods          | camelCase         | public static void mainMethod   |
-| Varriables       | camelCase         | int nombrePlantes = 5;          |
-| Final (constant) | camelCase         | final int nombrePlantes = 5;    |
+| Varriables       | camelCase         | int plantNumber = 5;            |
+| Final (constant) | UPPER_SNAKE       | final int PLANT_NUMBER = 5;     |
 | Fichier          | PascalCase        | `Main.java`, `UserService.java` |
 
 
