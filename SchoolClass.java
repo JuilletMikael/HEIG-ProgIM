@@ -1,5 +1,3 @@
-
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -14,7 +12,7 @@ public class SchoolClass {
 
     public boolean askAddStudent() {
         System.out.print("Would you like to add a student ? Y/N : ");
-        String response = this.scanner.next().toLowerCase();
+        String response = this.scanner.next().toLowerCase(); // Normalize input to lowercase
         if (response.equals("y") || response.equals("yes")) {
             return true;
         }
@@ -24,11 +22,11 @@ public class SchoolClass {
     public void addStudent() {
         double grade = 0;
 
-        System.out.print("Quel est le nom de l'étudiant.e ? : ");
+        System.out.print("What is the student name ? : "); 
         String name = this.scanner.next();
 
         do {
-            System.out.print("Quel est la moyenne de l'étudiant ? /6 : ");
+            System.out.print("What is the student's average grade ?  /6 : ");
             // Prevent from inserting an invalid value.
             while (!scanner.hasNextDouble()) {
                 System.out.println("Please enter a valid format !");
@@ -72,13 +70,13 @@ public class SchoolClass {
         }
 
         for (int i = 0; i < students.size(); i++) {
-            System.out.println("Student n° "+ i+1 + " :" + students.get(i).getGrade());
+            System.out.println("Student n° " + i + 1 + " :" + students.get(i).getGrade());
         }
     }
 
     private List<Student> searchStudents(String studentName) {
         return students.stream()
-        .filter(student -> student.getName().equalsIgnoreCase(studentName))
-        .collect(Collectors.toList());
+                .filter(student -> student.getName().equalsIgnoreCase(studentName))
+                .collect(Collectors.toList());
     }
 }

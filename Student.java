@@ -1,9 +1,7 @@
-
-
 public class Student {
-    private String name; 
+    private String name;
     private double grade;
-    
+
     public Student(String name, double grade) {
         this.name = name;
         this.grade = grade;
