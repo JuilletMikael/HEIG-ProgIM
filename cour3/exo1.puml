@@ -1,0 +1,22 @@
+#exo2
+Début 
+   Je connais mon nom "mikael"
+   je connais mon âge 22 
+   je connais ma taille 1.60 m
+   je dit "je m'appele mikael"
+   je dit " j'ai 22 ans"
+   je dit "je mesure 1.60 mètres"
+Fin
+
+@startuml
+
+start
+:instantier nom "mikael"
+:instantier age 22 
+:instantier taille 1.60
+:je dit "je m'appele mikael"
+:je dit " j'ai 22 ans"
+:je dit "je mesure 1.60 mètres"
+stop
+
+@enduml

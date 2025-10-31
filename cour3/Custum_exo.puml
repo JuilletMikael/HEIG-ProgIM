@@ -1,0 +1,40 @@
+#exo2
+Début 
+   Déclarer un array vide d'étudiant.
+   Déclarer moyenne = 0
+   Déclarer meilleur note = 0
+   Déclarer pire note = 0 
+   Déclarer nb_above_average = 0
+   Afficher un message "Voulez-vous ajouter un étudiant ? Y/N".
+   Attendre réponse user. 
+   Si la valleur est Y ou y ou yes ou Yes ou YES 
+      Afficher message "Quel est le nom de l'étudiant.e ?"
+      Attendre réponse user. 
+      Afficher "quel est la moyenne de l'étudiant ?"
+      Attendre réponse user. 
+      Créer un étudiant et l'ajouter dans la liste d'étudiant. 
+      Afficher message "voulez-vous ajouter un étudiant ? Y/N"
+      Si oui recommancer sinon continuer
+   Si autre quitter.
+   Calculer et assigner moyenne 
+   Calculer et assigner meilleur note 
+   Calculer et assigner pire note
+   Calculer et assigner 
+   Tant que i est différent de nb élèves
+      pour chaques élèves 
+      
+
+Fin
+
+@startuml
+
+start
+:instantier nom "mikael"
+:instantier age 22 
+:instantier taille 1.60
+:je dit "je m'appele mikael"
+:je dit " j'ai 22 ans"
+:je dit "je mesure 1.60 mètres"
+stop
+
+@enduml
