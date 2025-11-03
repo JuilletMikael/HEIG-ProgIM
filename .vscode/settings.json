@@ -1,11 +1,14 @@
 {
-	"cSpell.language": "en,fr",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnPaste": true,
-	"editor.formatOnSave": true,
-	"editor.renderWhitespace": "all",
-	"editor.rulers": [80],
-	"files.encoding": "utf8",
-	"files.eol": "\n",
-	"files.insertFinalNewline": true
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.language": "en,fr",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80],
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true
 }

@@ -22,7 +22,7 @@ public class SchoolClass {
     public void addStudent() {
         double grade = 0;
 
-        System.out.print("What is the student name ? : "); 
+        System.out.print("What is the student name ? : ");
         String name = this.scanner.next();
 
         do {
