@@ -7,4 +7,4 @@
 | Varriables       | camelCase         | int nombrePlantes = 5;          |
 | Final (constant) | camelCase         | final int nombrePlantes = 5;    |
 | Fichier          | PascalCase        | `Main.java`, `UserService.java` |
-
+| Package          | snake_case        | package_name                    |
